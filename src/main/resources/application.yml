@@ -1,0 +1,12 @@
+# Server properties
+server:
+  port: 8090
+  servlet:
+    context-path: /api/v1
+
+# Logger properties
+logging:
+  level:
+    root: info
+    web: info
+    sql: info
